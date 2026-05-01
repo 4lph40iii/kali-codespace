@@ -1,0 +1,13 @@
+{
+  "name": "Kali Linux (Codespaces)",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "extensions": [
+    "ms-azuretools.vscode-docker"
+  ],
+  "remoteUser": "kali"
+}
